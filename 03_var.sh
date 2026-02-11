@@ -7,3 +7,7 @@ name="Ayush"
 age=26
 
 echo "My name is $name and age is $age "
+
+HOSTNAME=$(hostname)
+
+echo "Name of this machine is $HOSTNAME"
