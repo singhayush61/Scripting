@@ -1,3 +1,8 @@
 #!/bin/bash
 
 [ 2 -eq 2 ] ; echo $?
+
+a=hello
+b=goodbye
+
+[[ $a = $b ]] ; echo $?
